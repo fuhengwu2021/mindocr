@@ -64,3 +64,22 @@ Command:
 ```
 python vis.py
 ```
+
+input:
+
+![](customer_issue_curved_text.png) 
+
+output:
+
+![](output_customer_issue_curved_text.png) 
+
+----
+
+input:
+
+![](prn431D-p1-1.jpg) 
+
+output:
+
+![](output_prn431D-p1-1.jpg) 
+
