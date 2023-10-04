@@ -1,0 +1,1 @@
+customer_issue_curved_text.png	[{"transcription": "company", "points": [[77, 16], [165, 10], [168, 28], [80, 35]]}, {"transcription": "inc", "points": [[161, 11], [192, 0], [204, 10], [172, 23]]}, {"transcription": "delivery", "points": [[7, 0], [84, 17], [74, 34], [0, 16]]}]
