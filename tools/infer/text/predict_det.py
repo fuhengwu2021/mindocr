@@ -31,6 +31,7 @@ from mindocr.utils.visualize import draw_boxes, show_imgs
 # map algorithm name to model name (which can be checked by `mindocr.list_models()`)
 # NOTE: Modify it to add new model for inference.
 algo_to_model_name = {
+    "DB18": "dbnet_resnet18",
     "DB": "dbnet_resnet50",
     "DB++": "dbnetpp_resnet50",
     "DB_MV3": "dbnet_mobilenetv3",

@@ -46,7 +46,7 @@ def create_parser():
         "--det_algorithm",
         type=str,
         default="DB++",
-        choices=["DB", "DB++", "DB_MV3", "PSE"],
+        choices=["DB", "DB18", "DB++", "DB_MV3", "PSE"],
         help="detection algorithm.",
     )  # determine the network architecture
     parser.add_argument(

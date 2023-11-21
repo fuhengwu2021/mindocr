@@ -2,15 +2,20 @@ import json
 from PIL import Image, ImageDraw
 import hiq
 
+import os
+
+here = os.path.dirname(os.path.realpath(__file__))
+
 # Path to the results file and the image directory
-results_file_path = 'inference_results/system_results.txt'
-image_directory = '.'  # Assuming the images are in the current directory
+results_file_path = f'{here}/inference_results/system_results.txt'
+image_directory = here  # Assuming the images are in the current directory
 
 # Open and read the results file
 lines = hiq.read_file(results_file_path)
 for line in lines:  # Reading line by line
     # Splitting the line into filename and JSON part
     filename, json_part = line.split('\t')
+    print(filename)
     
     # Load the JSON part as JSON
     results = json.loads(json_part.strip())
